@@ -1,0 +1,33 @@
+.width-50per {
+    width: 50%;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.main-height{
+    height: 550px;
+}
+
+.flex-col-40per {
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.flex-col-50per {
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.blog-card {
+    width: 22%;
+    margin: 13px;
+    padding: 10px;
+}
+
+.blog-card .card-body {
+    padding: 0px;
+}

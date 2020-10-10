@@ -4,9 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// External dependencies
+import 'bootstrap/dist/css/bootstrap.css';
+
+// Import components
+import HomeLayout from './layouts/home';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HomeLayout />
   </React.StrictMode>,
   document.getElementById('root')
 );
