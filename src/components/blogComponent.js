@@ -34,73 +34,73 @@ class Blog extends Component {
 
                 <div className="d-flex flex-row flex-wrap pb-100">
                     <div className="card blog-card border-0" >
-                        <img src={picture1} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title Goes Here.</h4>
-                            <hr className="mb-0 pb-1" /><p class="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
+                        <img src={picture1} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h4 className="card-title">Post Title Goes Here.</h4>
+                            <hr className="mb-0 pb-1" /><p className="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                             <hr className="mb-0 pb-1" />06 October 2020
                         </div>
                     </div>
                     <div className="card blog-card border-0" >
-                        <img src={picture2} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title Goes Here.</h4>
-                            <hr className="mb-0 pb-1" /><p class="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
+                        <img src={picture2} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h4 className="card-title">Post Title Goes Here.</h4>
+                            <hr className="mb-0 pb-1" /><p className="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                             <hr className="mb-0 pb-1" />06 October 2020
                         </div>
                     </div>
                     <div className="card blog-card border-0" >
-                        <img src={picture3} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title Goes Here.</h4>
-                            <hr className="mb-0 pb-1" /><p class="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
+                        <img src={picture3} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h4 className="card-title">Post Title Goes Here.</h4>
+                            <hr className="mb-0 pb-1" /><p className="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                             <hr className="mb-0 pb-1" />06 October 2020
                         </div>
                     </div>
                     <div className="card blog-card border-0" >
-                        <img src={picture4} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title Goes Here.</h4>
-                            <hr className="mb-0 pb-1" /><p class="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
+                        <img src={picture4} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h4 className="card-title">Post Title Goes Here.</h4>
+                            <hr className="mb-0 pb-1" /><p className="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                             <hr className="mb-0 pb-1" />06 October 2020
                         </div>
                     </div>
                     <div className="card blog-card border-0" >
-                        <img src={picture5} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title Goes Here.</h4>
-                            <hr className="mb-0 pb-1" /><p class="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
+                        <img src={picture5} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h4 className="card-title">Post Title Goes Here.</h4>
+                            <hr className="mb-0 pb-1" /><p className="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                             <hr className="mb-0 pb-1" />06 October 2020
                         </div>
                     </div>
                     <div className="card blog-card border-0" >
-                        <img src={picture6} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title Goes Here.</h4>
-                            <hr className="mb-0 pb-1" /><p class="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
+                        <img src={picture6} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h4 className="card-title">Post Title Goes Here.</h4>
+                            <hr className="mb-0 pb-1" /><p className="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                             <hr className="mb-0 pb-1" />06 October 2020
                         </div>
                     </div>
                     <div className="card blog-card border-0" >
-                        <img src={picture7} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title Goes Here.</h4>
-                            <hr className="mb-0 pb-1" /><p class="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
+                        <img src={picture7} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h4 className="card-title">Post Title Goes Here.</h4>
+                            <hr className="mb-0 pb-1" /><p className="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                             <hr className="mb-0 pb-1" />06 October 2020
                         </div>
                     </div>
                     <div className="card blog-card border-0" >
-                        <img src={picture8} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title Goes Here.</h4>
-                            <hr className="mb-0 pb-1" /><p class="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
+                        <img src={picture8} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h4 className="card-title">Post Title Goes Here.</h4>
+                            <hr className="mb-0 pb-1" /><p className="card-text mb-0">Posted By: <span className="font-weight-bold">Chandrika</span></p><hr className="mt-2" />
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                             <hr className="mb-0 pb-1" />06 October 2020
                         </div>

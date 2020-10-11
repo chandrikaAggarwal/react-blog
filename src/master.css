@@ -31,3 +31,8 @@
 .blog-card .card-body {
     padding: 0px;
 }
+
+.landing-page-img .img-fluid {
+    height: 100%;
+    width: 100%;
+}

@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
+
+import Home from './HomeComponent'
 import Blog from './blogComponent';
 
+import { Switch, Route } from 'react-router-dom';
 import '../master.css';
 
 class Main extends Component {
     render() {
         return (
             <div className="pt-5">
-                <Blog />
+                <Switch>
+                    <Route path="/" component={Home} exact />
+                    {/* <Route path="/about" component={Home} exact />
+                        <Route path="/contact-us" component={Home} exact /> */}
+                    <Route path="/blog" component={Blog} exact />
+                </Switch>
             </div>
         );
     }

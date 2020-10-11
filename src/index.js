@@ -6,14 +6,18 @@ import * as serviceWorker from './serviceWorker';
 
 // External dependencies
 import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 // Import components
 import HomeLayout from './layouts/home';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  //   <HomeLayout />
+  // </React.StrictMode>,
+  <BrowserRouter>
     <HomeLayout />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
