@@ -3,11 +3,16 @@ import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Footer extends Component {
+    state = {
+        social: ["faFacebook", 'faTwitter', 'faLinkedin']
+    }
+
     render() {
         return (
             <div className="bg-success p-2 fixed-bottom position-fixed">
                 <ul className="nav justify-content-center">
-                    <li className="nav-item">
+                    {this.state.social.map(iconName => <li key={iconName} className="nav-item"><a className="nav-link text-white" href="#"><FontAwesomeIcon icon={iconName} /></a></li>)}
+                    {/* <li className="nav-item">
                         <a className="nav-link text-white" href="#"><FontAwesomeIcon icon={faFacebook} /></a>
                     </li>
                     <li className="nav-item">
@@ -15,7 +20,7 @@ class Footer extends Component {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-white" href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         );
