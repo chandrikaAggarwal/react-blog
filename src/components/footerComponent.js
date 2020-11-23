@@ -22,6 +22,10 @@ class Footer extends Component {
                         <a className="nav-link text-white" href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li> */}
                 </ul>
+
+                <div className="pt-5">
+                    <p><a href="form-practise" className="text-white">Form</a> | </p>
+                </div>
             </div>
         );
     }
