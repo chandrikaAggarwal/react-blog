@@ -11,8 +11,8 @@ class Footer extends Component {
         return (
             <div className="bg-success p-2 fixed-bottom position-fixed">
                 <ul className="nav justify-content-center">
-                    {this.state.social.map(iconName => <li key={iconName} className="nav-item"><a className="nav-link text-white" href="#"><FontAwesomeIcon icon={iconName} /></a></li>)}
-                    {/* <li className="nav-item">
+                    {/* {this.state.social.map(iconName => <li key={iconName} className="nav-item"><a className="nav-link text-white" href="#"><FontAwesomeIcon icon={iconName} /></a></li>)} */}
+                    <li className="nav-item">
                         <a className="nav-link text-white" href="#"><FontAwesomeIcon icon={faFacebook} /></a>
                     </li>
                     <li className="nav-item">
@@ -20,12 +20,12 @@ class Footer extends Component {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-white" href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    </li> */}
+                    </li>
                 </ul>
 
-                <div className="pt-5">
+                {/* <div className="pt-5">
                     <p><a href="form-practise" className="text-white">Form</a> | </p>
-                </div>
+                </div> */}
             </div>
         );
     }

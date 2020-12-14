@@ -14,8 +14,12 @@ class FormPractise extends Component {
     }
 
     render() {
+        if (!this.state.value || !this.state.textarea || !this.state.selectValue) {
+            throw new Error('Value cannot be empty');
+        }
+
         return (
-            <div>
+            <>
                 <h1>Forms</h1>
                 <div className="p-2 d-flex flex-row">
                     <div className="w-50 border p-2">
@@ -40,7 +44,7 @@ class FormPractise extends Component {
 
                     </div>
                 </div>
-            </div>
+            </>
         );
     }
 }

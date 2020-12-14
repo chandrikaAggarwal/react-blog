@@ -7,7 +7,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="landing-page-img">
-                <img className="img-fluid" src={landingPage} alt="picture" />
+                <img className="img-fluid" src={landingPage} alt="" />
             </div>
         );
     }

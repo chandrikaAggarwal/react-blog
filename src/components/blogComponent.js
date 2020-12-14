@@ -15,10 +15,10 @@ import picture8 from '../img/post-image9.jpg';
 class Blog extends Component {
     render() {
         return (
-            <div>
+            <>
                 <div className="d-flex">
                     <div className="flex-col-40per">
-                        <img className="img-fluid" src={latest} alt="picture" />
+                        <img className="img-fluid" src={latest} alt="" />
                     </div>
                     <div className="flex-col-50per">
                         <h3>Post Title Goes Here.</h3>
@@ -106,7 +106,7 @@ class Blog extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </>
         );
     }
 }

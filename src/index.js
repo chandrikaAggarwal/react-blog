@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 // External dependencies
 import 'bootstrap/dist/css/bootstrap.css';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 // Import components
 import HomeLayout from './layouts/home';
